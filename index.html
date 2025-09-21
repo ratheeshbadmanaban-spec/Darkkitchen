@@ -3,136 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Kitchen</title>
-  <style>
+  <title>Dark Kitchen - Palm Jaggery</title> Drak Kitchen
+  <style> #3d2a19
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background-color: #fdfdfb;
-      color: #3a2d25;
+      background-color: #fdfcf9;
+      color: #2e1f14;
     }
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px;
+      padding: 15px 30px;
       background: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     header .logo {
+      font-size: 22px;
       font-weight: bold;
-      font-size: 20px;
+      color: #3d2a19;
     }
     header nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #3a2d25;
+      color: #3d2a19;
       font-weight: bold;
     }
     .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 40px;
-      background: #f7f4f1;
+      text-align: center;
+      padding: 50px 20px;
+      background: #f4efe9;
     }
     .hero img {
-      width: 250px;
-      border-radius: 10px;
+      width: 350px;
+      border-radius: 15px;
+      margin-top: 20px;
     }
-    .hero-text h1 {
-      font-size: 32px;
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
     }
-    .hero-text button {
-      padding: 12px 20px;
-      background: #3a2d25;
-      color: white;
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      background: #3d2a19;
+      color: #fff;
+      padding: 12px 25px;
+      font-size: 16px;
       border: none;
-      margin-top: 15px;
+      border-radius: 5px;
       cursor: pointer;
     }
     .products {
-      padding: 40px;
+      padding: 50px 20px;
       text-align: center;
     }
     .products h2 {
-      margin-bottom: 20px;
+      font-size: 28px;
+      margin-bottom: 30px;
     }
-    .product-grid {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-    }
-    .product {
+    .product-card {
+      display: inline-block;
       background: #fff;
-      border-radius: 10px;
+      margin: 15px;
       padding: 20px;
-      width: 200px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      width: 250px;
     }
-    .product img {
+    .product-card img {
       width: 100%;
       border-radius: 10px;
     }
-    .product button {
-      margin-top: 10px;
-      padding: 10px 15px;
-      background: #3a2d25;
+    .product-card h3 {
+      margin: 18px 0 5px;
+    }
+    .product-card p {
+      margin: 03;
+      color: #555;
+      font-size: 18px;
+    }
+    .product-card button {
+      margin-top: 20px;
+      padding: 10px 18px;
+      background: #3d2a19;
       color: white;
-      border: none;
+      border: black;
+      border-radius: 5px;
       cursor: pointer;
     }
     .delivery {
-      background: #f2e9e3;
-      padding: 20px;
+      background: #f1e4d9;
       text-align: center;
+      padding: 25px;
       font-weight: bold;
+      font-size: 20px;
     }
   </style>
 </head>
 <body>
+  <!-- Header -->
   <header>
     <div class="logo">🌴 DARK KITCHEN</div>
     <nav>
-      <a href="#">Home</a>Karupatti, also known as Palm Jaggery, is a traditional natural sweetener made from palm tree sap. Unlike refined sugar, it is chemical-free, nutrient-rich, and packed with health benefits. Our mission is to bring back this age-old superfood to modern kitchens in the purest form.
-      <a href="#">About</a>Karupatti is a natural sweetener made from the sap of palm trees. It is considered a healthier alternative to refined sugar. The sap is collected from the palm tree, boiled in large vessels until it thickens, and then cooled down to form solid jaggery. It has a dark brown to blackish color, which is why it is called Karupatti. Slightly bitter yet sweet in taste, it is rich in essential nutrients such as calcium, iron, magnesium, and potassium.
-      <a href="#">Products</a>100% Natural, No Chemicals
-                              Rich in Iron & Minerals
-                              Alternative to Refined Sugar
-                              Supports Traditional Farmers
-      <a href="#">Contact</a>darkkitchen58@gmail.com
+      <a href="#">Home</a> Palm jaggery offers several health benefits. 
+      It helps prevent anemia due to its high iron content.
+      Improves digestion, cools down body heat, and strengthens bones with its calcium and magnesium content. 
+      It acts as a natural energy booster, enhances immunity, and helps detoxify the liver and body by flushing out toxins.
+      <a href="#">About</a> USP (Unique Selling Points)
+
+                           100% Natural, No Chemicals
+
+                           Rich in Iron & Minerals
+
+                           Alternative to Refined Sugar
+
+                           Supports Traditional Farmers
+      <a href="#">Products</a> Karupatti, also known as Palm Jaggery, is a traditional natural sweetener made from palm tree sap.
+                               Unlike refined sugar, it is chemical-free, nutrient-rich, and packed with health benefits.
+                               Our mission is to bring back this age-old superfood to modern kitchens in the purest form.
+      <a href="#">Contact</a> Darkkitch58@gamil.com
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-text">
-      <h1>Tradition Meets Technology</h1>
-      <p>Palm tree products direct from the village to your home</p>
-      <button>Shop Now</button>
-    </div>
-    <img src="palm-jaggery.jpg" alt="Palm Jaggery">
+    <h1>Tradition Meets Technology</h1>
+    <p>Pure Palm Jaggery products delivered from the village to your home</p>
+    <button>Shop Now</button>
+    <br>
+    <img src="81YOCPQnCML._UF1000,1000_QL80_.jpg" alt="Palm Jaggery">
   </section>
 
-  <section class="products"> 
-    <h2>Our Products</h2> Home Made Product
-    <div class="product-grid">
-      <div class="product"> Nature Product (Oraganic)
-        <img src="palm-sugar.jpg" alt="Palm Sugar">
-        <h3>Palm Sugar</h3> 1kg =150
-        <p>Panam Kalkandu</p> 1Kg =280
-        <button>Buy Now</button> Contact:9344658874
-      </div>
-      <div class="product">
-        <img src="palm-jaggery.jpg" alt="Palm Jaggery">
-        <h3>Palm Jaggery</h3> 1kg = 300
-        <p>Karupatti</p> 1kg =380
-        <button>Buy Now</button> 
-      </div>
+  <!-- Product Section -->
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-card">
+      <img src="81YOCPQnCML._UF1000,1000_QL80_.jpg" alt="Palm Jaggery">
+      <h3>Palm Jaggery 1 kg </h3> 370
+      <p>Karupatti - 1kg Pack</p> 420
+      <button>Buy Now</button>
+    </div>
+    <div class="product-card">
+      <img src="81YOCPQnCML._UF1000,1000_QL80_.jpg" alt="Palm Sugar">
+      <h3>Palm Sugar 1kg </h3> 280
+      <p>Panam Kalkandu - 500g</p> 120
+      <button>Buy Now</button>
     </div>
   </section>
 
-  <div class="delivery"> Not Available For Cash On Delivery
-    🚚 Monthly 1 KG Karupatti Home Delivery For Subscription
+  <!-- Delivery Banner -->
+  <div class="delivery">
+    🚚 Monthly 1 KG Karupatti Home Delivery Available! (subscription)
   </div>
 </body>
 </html>
